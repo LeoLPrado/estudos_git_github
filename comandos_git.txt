@@ -1,0 +1,23 @@
+git init -> torna a pasta versionavel oq torna ela versionavel é uma pasta que fica dentro dela (.git (invisível) pra ver basta dar um ls -a)
+
+git status -> mostra literalmente os status (qual branch, quantos commits, arquivos que ainda não foram trackeados (não foram atualizados para participar do versionamento)
+
+git add "nome do arquivo" ou pode usar " . " (esse ponto adiciona todos os arquivos do diretorio atual {quando você usar "ls -a" voce vera que tera esse ./ e a ../ que é a pasta mae de todo o diretório}) -> adiciona o que nos queremos que vai para o commit, prepara e elenca oq vai entrar no commit
+
+git commit -m "mensagem" -> Criando um checkpoint dando uma descrição do save
+
+IDENTIFICAO PARA "AASSINAR" OS COMMITS
+(git config --global user.email "seu email", git commit --user.name "seu user name")
+
+git log -> mostra todo o histórico de commits
+
+#FLUXO DE TRABALHO:
+1. criar o diretório (pasta) do projeto
+2. iniciar o git dentro do diretório criado (git init .)
+3. edita ou cria arquivos
+4. git status
+5. git add <nome aquivo>
+6. git status
+7.git commit -m "mensagem"
+8. git status
+9. volta para o passo 3

@@ -55,7 +55,7 @@ quando se cria uma branch nova você basicamente clona tudo que tem na main(ante
 
 para trazer o que esta na branch secundaria (nova branch criada) :
 
-git merge <nome da branch que você quer misturar> -> isso faz com que as informações que estão numa outra branch entre na branch atual na qual você esta durante o merge
+git merge <nome da branch que você quer misturar> -> isso faz com que as ALTERACOES que estão numa outra branch entre na branch atual na qual você esta durante o merge
 
 ----------------------------------------------------------------------------------------
 EXEMPLO:

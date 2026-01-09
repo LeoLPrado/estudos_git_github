@@ -69,3 +69,7 @@ $ git merge secundaria <--- nome da branch que quero fundir na main
 
 git branch -d <nome da branch a ser deletada> --> deleta uma branch
 
+*CONFLITOS*:
+
+O conflito visto no exemplo do teo foi: duas branches que modificaram A MESMA LINHA DO MESMO ARQUIVO (não tem problema modificar o mesmo arquivo e sim a mesma linha), para resolver esse conflito vc deve LITERALMENTE entrar no arquivo que esta dando conflito , e manualmente modificar a linha do jeito que você achar melhor e depois fazer o (add . ; commit -m,).
+

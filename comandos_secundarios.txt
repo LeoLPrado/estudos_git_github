@@ -1,1 +1,4 @@
 secundaria 123
+
+#comandos mais genéricos
+xxx

@@ -20,7 +20,7 @@ git log -> mostra todo o histórico de commits
 4. git status
 5. git add <nome aquivo>
 6. git status
-7.git commit -m "mensagem"
+7. git commit -m "mensagem"
 8. git status
 9. volta para o passo 3
 
@@ -50,3 +50,19 @@ nothing to commit, working tree clean
 git branch -> mostra todas as branches existentes e qual sua atual branch
 
 git checkout <nome da brainch> -> serve para mudar de branch
+
+quando se cria uma branch nova você basicamente clona tudo que tem na main(anterior).
+
+para trazer o que esta na branch secundaria (nova branch criada) :
+
+git merge <nome da branch que você quer misturar> -> isso faz com que as informações que estão numa outra branch entre na branch atual na qual você esta durante o merge
+
+----------------------------------------------------------------------------------------
+EXEMPLO:
+branch atual = main
+branch que vai se misturar = secundaria 
+
+leolo@notebook MINGW64 ~/Downloads/curso_git_2026 (main) <--- branch atual
+$ git merge secundaria <--- nome da branch que quero fundir na main
+
+----------------------------------------------------------------------------------------

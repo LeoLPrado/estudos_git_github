@@ -66,3 +66,5 @@ leolo@notebook MINGW64 ~/Downloads/curso_git_2026 (main) <--- branch atual
 $ git merge secundaria <--- nome da branch que quero fundir na main
 
 ----------------------------------------------------------------------------------------
+
+git branch -d <nome da branch a ser deletada> --> deleta uma branch

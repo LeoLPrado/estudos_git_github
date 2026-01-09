@@ -11,6 +11,8 @@ IDENTIFICAO PARA "AASSINAR" OS COMMITS
 
 git log -> mostra todo o histórico de commits
 
+------------------------------------------------------------------------------------------------------
+
 #FLUXO DE TRABALHO:
 1. criar o diretório (pasta) do projeto
 2. iniciar o git dentro do diretório criado (git init .)
@@ -21,3 +23,30 @@ git log -> mostra todo o histórico de commits
 7.git commit -m "mensagem"
 8. git status
 9. volta para o passo 3
+
+------------------------------------------------------------------------------------------------------
+
+git diff <nome arquivo> -> mostra dentro do arquivo oq ha de novo no arquivo
+
+git reset <nome do arquivo> -> tira o estado atual do arquivo (tira ele do commit)
+
+------------------------------------------------------------------------------------------------------
+
+*BRANCHES* (Ramificacoes)
+
+git checkout -b <nome da npva branch> -> cria uma nova branch e ja muda pra ela 
+
+{
+leolo@notebook MINGW64 ~/Downloads/curso_git_2026 (main) <--
+$ git checkout -b secundaria				 <--
+Switched to a new branch 'secundaria'			 <-- switched to secundaria (nova branch)
+
+leolo@notebook MINGW64 ~/Downloads/curso_git_2026 (secundaria) <---- veja que já mudou a branch
+$ git status
+On branch secundaria 		<----- perceba
+nothing to commit, working tree clean
+}
+
+git branch -> mostra todas as branches existentes e qual sua atual branch
+
+git checkout <nome da brainch> -> serve para mudar de branch

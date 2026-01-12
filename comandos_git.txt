@@ -85,3 +85,11 @@ git remote remove <nome>	  -> remove a "ponte entre o local e o remoto"
 
 git --help -> muito útil pois ele mostra vários comandos uteis.
 
+----------------------------------------------------------------------------------------
+
+Geralmente : cria uma branch nova , faz as modificações , faz um push dessa branch no repositório remoto (GitHub) , e depois solicita um pull request(PR) que é basicamente um pedido de autorização para fazer o merge na main.
+
+para deixar a main do remoto igual a main do local (sua maquina) você usa *git pull origin main*
+
+pull -> recebe coisas da origem (origin)
+push -> envia coisas para origem (origin)

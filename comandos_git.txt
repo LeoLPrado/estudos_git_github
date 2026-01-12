@@ -1,6 +1,6 @@
-git init -> torna a pasta versionavel oq torna ela versionavel é uma pasta que fica dentro dela (.git (invisível) pra ver basta dar um ls -a)
+git init -> torna a pasta versionavel oq torna ela versionavel é uma pasta que fica dentro dela (.git (invisível) pra ver basta dar um ls -a) CCCCC
 
-git status -> mostra literalmente os status (qual branch, quantos commits, arquivos que ainda não foram trackeados (não foram atualizados para participar do versionamento)
+git status -> mostra literalmente os status (qual branch, quantos commits, arquivos que ainda não foram trackeados (não foram atualizados para participar do versionamento) DDDD
 
 git add "nome do arquivo" ou pode usar " . " (esse ponto adiciona todos os arquivos do diretorio atual {quando você usar "ls -a" voce vera que tera esse ./ e a ../ que é a pasta mae de todo o diretório}) -> adiciona o que nos queremos que vai para o commit, prepara e elenca oq vai entrar no commit
 

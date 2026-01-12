@@ -73,3 +73,15 @@ git branch -d <nome da branch a ser deletada> --> deleta uma branch
 
 O conflito visto no exemplo do teo foi: duas branches que modificaram A MESMA LINHA DO MESMO ARQUIVO (não tem problema modificar o mesmo arquivo e sim a mesma linha), para resolver esse conflito vc deve LITERALMENTE entrar no arquivo que esta dando conflito , e manualmente modificar a linha do jeito que você achar melhor e depois fazer o (add . ; commit -m,).
 
+
+GITHUB: Repositorio remoto
+
+git remote add origin https://github.com/LeoLPrado/estudos_git_github.git (define uma ponte entre o repositório local e o repositório remoto)
+
+git push origin main (envia para o remoto(origin) a branch main)
+
+git remote rename <antiga> <nova> -> renomeia o destino
+git remote remove <nome>	  -> remove a "ponte entre o local e o remoto"
+
+git --help -> muito útil pois ele mostra vários comandos uteis 
+

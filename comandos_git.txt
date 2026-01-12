@@ -83,5 +83,5 @@ git push origin main (envia para o remoto(origin) a branch main)
 git remote rename <antiga> <nova> -> renomeia o destino
 git remote remove <nome>	  -> remove a "ponte entre o local e o remoto"
 
-git --help -> muito útil pois ele mostra vários comandos uteis 
+git --help -> muito útil pois ele mostra vários comandos uteis.
 

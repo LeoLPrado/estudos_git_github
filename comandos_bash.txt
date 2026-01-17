@@ -2,6 +2,8 @@ ls  -> lista arquivos
 
 cd  -> move entre diretórios
 
+cd .. -> volta o caminho
+
 pwd -> mostra diretório de trabalho
 
 cat -> mostra oq tem dentro do arquivo

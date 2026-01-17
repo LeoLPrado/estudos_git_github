@@ -85,7 +85,7 @@ git remote remove <nome>	  -> remove a "ponte entre o local e o remoto"
 
 git --help -> muito útil pois ele mostra vários comandos uteis.
 
-----------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
 
 Geralmente : cria uma branch nova , faz as modificações , faz um push dessa branch no repositório remoto (GitHub) , e depois solicita um pull request(PR) que é basicamente um pedido de autorização para fazer o merge na main.
 
@@ -93,3 +93,42 @@ para deixar a main do remoto igual a main do local (sua maquina) você usa *git 
 
 pull -> recebe coisas da origem (origin)
 push -> envia coisas para origem (origin)
+------------------------------------------------------------------------------------------------------
+
+FORK -> clona repositório remoto de alguéme traz para o seu repositório remoto (literalmente um clone)
+serve para aquela questão de colaborar com algum outro repositório ou projeto 
+para trazer o fork do seu remoto para seu local basta dar um git clone <url do fork (https ou ssh)> em uma nova pasta no git bash
+
+------------------------------------------------------------------------------------------------------
+## Fluxo de trabalho git local
+
+1.  git checkout -b <nova-branch>
+2.  atualiza ou cria arquivos
+3.  alterações de arquivos
+4.  git status
+5.  git add arquivos
+6.  git status
+7.  git commit -m "msg"
+8.  git push origin <nova-branch>
+9.  abrir pull request no GitHub para main
+10. excluir <nova-branch> origin
+11. git checkout main
+12. git branch -D <nova-branch>
+
+
+## FLUXO trabalho GitHub <> Local (projetos)
+
+1. Fork do projeto para seu próprio git hub
+2. git clone <url do fork>
+3. git checkout -n <nova-branch>
+4. alterações de arquivos
+5. git status
+6. git add arquivos
+7. git status
+8. git commit -m "msg"
+9. git push origin <nova-branch>
+10. abrir pull request no git hub na branch fork para main do projeto ORIGINAL
+11. excluir <nova-branch> origin
+12. git checkout main
+13. git branch -D <nova-branch>
+---------------------------------------------------------------------------------------------------

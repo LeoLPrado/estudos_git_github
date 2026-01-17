@@ -120,7 +120,7 @@ para trazer o fork do seu remoto para seu local basta dar um git clone <url do f
 
 1. Fork do projeto para seu próprio git hub
 2. git clone <url do fork>
-3. git checkout -n <nova-branch>
+3. git checkout -b <nova-branch>
 4. alterações de arquivos
 5. git status
 6. git add arquivos

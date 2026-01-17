@@ -9,3 +9,4 @@ pwd -> mostra diretório de trabalho
 cat -> mostra oq tem dentro do arquivo
 
 rm "nome da pasta" -> exclui o nome da pasta
+.
